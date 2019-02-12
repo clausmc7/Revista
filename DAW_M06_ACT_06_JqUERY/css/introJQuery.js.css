@@ -1,0 +1,44 @@
+body>div{
+    margin-bottom: 10px;
+}
+.contentDiv> div:hover{
+	background-color: #00C1F2;
+	cursor: pointer;
+}
+.contentDiv> div { 
+	border: 1px solid blue; 
+	margin: 5px;
+	min-height: 30px; 
+	min-width: 75px; 
+	display: inline-block; 
+	vertical-align: top;
+        background-color:#FFDAB9;
+        border-radius: 15%;
+        border:1px solid black;
+        padding:0px 2px;
+        text-align: center;
+}
+#divMobil{
+	border-radius:3px;
+	border:1px solid #00C1F2;
+	width: 200px;
+	height: 30px;
+}
+.contentImg{
+    width: auto;
+    height: auto;
+     width: 200px;
+     position:relative;
+}
+.contentImg>img{
+    width: 200px;
+}
+.contentImg>div{
+    opacity: 0.7;
+    background-color: white;
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    overflow:hidden;
+    height: 30%;
+} 
